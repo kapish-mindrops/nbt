@@ -203,14 +203,14 @@ footer {
     rgba(255, 142, 142, 1) 50%
   );
 }
+@media only screen and (min-width: 360px) and (max-width: 640px) {
+  .navi {
+    padding-top: 3rem;
+  }
+}
 
 @media only screen and (min-width: 375px) and (max-width: 767px) {
   .navi {
     padding-top: 6rem;
-  }
-}
-@media only screen and (min-width: 360px) and (max-width: 640px) {
-  .navi {
-    padding-top: 3rem;
   }
 }
