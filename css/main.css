@@ -197,3 +197,10 @@ form {
     rgba(255, 142, 142, 1) 50%
   );
 }
+
+/* media */
+@media only screen and (min-width: 375px) and (max-width: 767px) {
+  .navi {
+    padding: 8.5rem 0.9rem;
+  }
+}
